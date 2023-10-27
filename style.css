@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+body {
+  overflow-x: hidden;
+  background-color: #f5f5f7 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 100% !important;
+}
+h2{
+  font-size: 35px !important;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  flex-wrap: wrap;
+  background-color: black;
+  align-items: center;
+  opacity: 85%;
+  position: fixed;
+  width: 100%;
+  padding-inline: 20px;
+  z-index: 5;
+  top: 0;
+}
+.navicons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  flex-wrap: wrap;
+}
+ul > li {
+  list-style: none;
+}
+li > a,
+.iphone15Section a {
+  text-decoration: none !important;
+  color: white !important;
+  margin-inline: 10px;
+}
+.card>div>a, .card>div>div>a{
+
+  text-decoration: none !important;
+  }
+
+.heroSection {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+}
+.heroSection > div {
+  text-align: center;
+  margin-left: 10px;
+}
+section {
+  width: 100vw;
+}
+.iphone15Section {
+  width: 100%;
+  background-color: black;
+}
+#iphone15 a {
+  color: black !important;
+  text-decoration: none;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.card > img {
+  width: 100% !important;
+}
+
+#product1 p, #product2 p{
+  font-weight: 350 !important;
+  margin-bottom: 0rem !important;
+  font-size: larger !important;
+}
+/* .card{
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    height: 576px;
+    flex-direction: column !important;
+    border: none !important;
+    box-sizing: border-box;
+}
+h4{
+    line-height: 100% !important;
+}
+.card>img{
+    height: 50%;
+}
+button{
+    width: 100px !important;
+    border-radius: 25px !important;
+    background: #0071e3 !important ;
+    color: white !important;
+} */
+.card {
+  width: 48% !important;
+  height: 600px !important;
+  height: auto;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 0px !important;
+  border: none !important;
+  flex-shrink: initial;
+  overflow: hidden;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card1 {
+  background-color: black !important;
+}
+.card2 > div > img {
+  width: 50% !important;
+}
+.card4 > div > img {
+  height: 50% !important;
+}
+.card6 > img {
+  width: 60% !important;
+}
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  background-color: #fbfbfb !important;
+}
+footer > div > ol > li > a,
+footer > div > ol > li,
+footer > div > ul > li > a,
+footer > div > ul > li {
+  color: #6e6e73 !important;
+  font-size: 1em;
+}
+footer > div > ol > li {
+  margin: 5px;
+}
+footer {
+  padding-inline: 10vw;
+}
+footer > div {
+  border-top: 0.5px solid #6e6e73;
+  width: 80vw;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+footer > div > ul {
+  width: auto;
+  margin-top: 20px;
+}
+.lastElement > a {
+  padding-inline: 10px;
+  text-decoration: none;
+  box-shadow: -1px 0px 0px 0px #6e6e73 inset;
+  font-size: 1em;
+}
+.lastElement {
+  justify-content: space-between;
+}
+.lastfooters > div,
+.lastfooters > p {
+  font-size: 14px;
+  color: #717176;
+}
+
+@media screen and (max-width: 949px) {
+  .nav {
+    padding-bottom: 10px;
+    justify-content: space-around;
+  }
+  .heroSection {
+    padding-top: 20%;
+  }
+  .card {
+    width: 42% !important;
+    height: 400px !important;
+  }
+  .card5 > div > img {
+    width: 100% !important;
+  }
+
+  .card4 > div > img {
+    height: 30% !important;
+  }
+}
+.tag{
+font-style: italic;
+box-shadow: 3px 2px 3px 2px ;
+border-radius: 15px 0px 15px 0px;
+width: 100% !important;
+transition-property: font-size, width;
+transition: ease;
+transition-duration: 3s;
+
+font-weight: 500 !important;
+}
+.tag:hover{
+font-size: large;
+background-color: wheat;
+width: 56vw !important;
+}
+@media screen and (max-width: 840px) {
+  .heroSection {
+    padding-top: 30% !important;
+  }
+}
+@media screen and (max-width: 540px) {
+  .navicons {
+    display: none !important;
+    margin: 0;
+    padding: 0;
+  }
+  .heroSection {
+    padding-top: 15% !important;
+  }
+
+  .card {
+    width: 100% !important;
+    height: 50vh !important;
+  }
+}
