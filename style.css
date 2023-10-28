@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box !important;
 }
+.page{
+  overflow-x: hidden !important;
+}
 body {
   overflow-x: hidden;
-  background-color: #f5f5f7 !important;
+ 
+}
+h5{
+  font-size: 15px !important;
 }
 h1,
 h2,
@@ -15,8 +23,11 @@ h5,
 h6 {
   line-height: 100% !important;
 }
-h2{
+h3{
   font-size: 35px !important;
+}
+h2{
+  font-size: 50px !important;
 }
 .nav {
   display: flex;
@@ -29,15 +40,51 @@ h2{
   position: fixed;
   width: 100%;
   padding-inline: 20px;
-  z-index: 5;
+  z-index: 10;
   top: 0;
+  box-shadow: 2px 12px 15px -15px black;
 }
+
 .navicons {
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
   flex-wrap: wrap;
 }
+.film, .media{
+  position: relative;
+
+}
+.headingfilm{
+  position: absolute;
+  z-index: 1;
+  font-size: 5vw;
+  flex-shrink:initial;
+  text-wrap: wrap;
+  color: white;
+  text-align: left;
+  width: 30% !important;
+  text-shadow: 15px 11px 12px black;
+  font-family: 'Oswald', sans-serif;
+  line-height: 100% !important;
+
+}
+.headingfilm>span{
+  font-size: 2vw !important;
+  display: flex;
+  flex-direction: row;
+}
+
+.title{
+  z-index: 1;
+  height: 30% !important;
+  position: absolute;
+  top: 5;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
 ul > li {
   list-style: none;
 }
@@ -136,12 +183,14 @@ button{
 .card6 > img {
   width: 60% !important;
 }
+.card3{
+  background-color: #f5f5f7 !important;
+}
 .card2,
-.card3,
 .card4,
 .card5,
 .card6 {
-  background-color: #fbfbfb !important;
+  background-color: white !important;
 }
 footer > div > ol > li > a,
 footer > div > ol > li,
@@ -155,6 +204,7 @@ footer > div > ol > li {
 }
 footer {
   padding-inline: 10vw;
+  background-color: #f5f5f7 !important;
 }
 footer > div {
   border-top: 0.5px solid #6e6e73;
@@ -231,9 +281,18 @@ width: 56vw !important;
   .heroSection {
     padding-top: 15% !important;
   }
-
+h2{
+  font-size: 35px !important;
+}
+h3{
+  font-size: 30px !important;
+}
   .card {
     width: 100% !important;
     height: 50vh !important;
+  }
+  .card>div>a, .card>div>div>a,li > a,
+  .iphone15Section a, #product1 p, #product2 p{
+    font-size: medium !important;
   }
 }
